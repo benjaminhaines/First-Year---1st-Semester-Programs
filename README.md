@@ -11,6 +11,7 @@ Three Doubles (X, Y, Z) - This program prompts the user to input three numbers f
 </li> x raised to the power of (y to the power of z) </li> 
 </li> absolute value of y </li>
 </li> square root of (x*y to the power of z) </li>
+</ul>
 
 
 
