@@ -1,4 +1,4 @@
-# First Year, 1st Semester Programs
+# First Year, 1st Semester Programs - COSC 10403
 Lab 0 - The purpose of this program is to write, compile, and run a Hello World Java program.<br>
 
 Lab 1 - The purpose of this program is to demonstrate the use of variables, basic types, and printing special characters to the system console.<br>
