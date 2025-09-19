@@ -17,7 +17,8 @@ public class Calculator{
             num1 = keyboard.nextDouble();
 
             //Prompting User to choose an operation
-            System.out.println("Enter an Operator + (to add), - (to subtract), * (to multiply), / (to divide), % (to find remainder), ^ (to find exponential),");
+            System.out.println("Enter an Operator + (to add), - (to subtract), * (to multiply), / (to divide), % (to find remainder), ^ (to find exponential),"
+                              + " r(to find the square root of one number)";
             operator = keyboard.next().charAt(0);
 
             //Getting user's second number
@@ -28,6 +29,7 @@ public class Calculator{
             switch(operator){
                 case '+' -> result = num1 + num2; //Adds both Numbers
                 case '-' -> result = num1 - num2; //Subtracts both Numbers
+                case 'r' -> result = Math.sqrt(num1); //Square root of 1st user input number
                 case '*' -> result = num1 * num2; //Multiplies both Numbers
                 case '%' -> result = num1 % num2; //Finds the remainder of the first number 
                 //Helps user know that they can't divide by 0 and prevents it by making the boolean variable turn false to prevent any calculations being done.
